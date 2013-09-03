@@ -11,7 +11,8 @@ int main(){
 
 	srand(time(NULL)); nmaq=rand()% 100+1;
 	c=10;
-	printf("\nEl Numero es: %d \n", nmaq);
+	 //printf("\nEl Numero es: %d \n", nmaq);
+	 //Ocultar Numero
 	do{
 		printf("\nAdivina que numero tengo entre el 1 y el 100, tienes %d intentos\n", c);
 		printf("\nDame un numero entero");
