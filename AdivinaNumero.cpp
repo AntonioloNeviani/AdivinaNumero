@@ -4,7 +4,8 @@
 #include <stdio.h>
 #include <conio.h>
 #include <time.h>
-
+	
+	//Juego de Adivinar un Numero
 int main(){
 
 	int c, nusuario,nmaq;
