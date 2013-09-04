@@ -18,15 +18,15 @@ int main(){
 	 //Ocultar Numero
 >>>>>>> develop
 	do{
-		printf("\nAdivina que numero tengo entre el 1 y el 100, tienes %d intentos\n", c);
-		printf("\nDame un numero entero");
+		printf("\nAdivine que numero tengo entre el 1 y el 100, tiene %d intentos\n", c);
+		printf("\nIntodusca un numero entero");
 		scanf("%i", &nusuario);
-		if(nusuario>nmaq) printf("\nTu numero es mayor que el mio");
-		else if(nusuario<nmaq) printf("\nTu numero es menor que el mio");
+		if(nusuario>nmaq) printf("\nSu numero es mayor que el mio");
+		else if(nusuario<nmaq) printf("\nSu numero es menor que el mio");
 		else printf("\nEse numero no existe");
 		c--;
 	}while(nusuario!=nmaq && c>0);
-	if(nusuario==nmaq) printf("\nFeliciadades te quedaron %d intentos", c);
+	if(nusuario==nmaq) printf("\nFeliciadades le quedaron %d intentos", c);
 	else printf("\nLastima, suerte para la proxima");
 
 	getch(); return 0;
